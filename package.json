@@ -1,0 +1,23 @@
+{
+  "name": "containerize-app-and-push-to-docker-hub",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/KarimZakzouk/Containerize-App---Push-to-Docker-Hub#readme",
+  "bugs": {
+    "url": "https://github.com/KarimZakzouk/Containerize-App---Push-to-Docker-Hub/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarimZakzouk/Containerize-App---Push-to-Docker-Hub.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
