@@ -3,19 +3,19 @@
 1. **Pull the image from Docker Hub**
 
 ```bash
-docker pull <your-dockerhub-username>/app:latest
+docker pull karimzakzouk/app:latest
 ```
 
 or for a specific version tag:
 
 ```bash
-docker pull <your-dockerhub-username>/app:v1.0.0
+docker pull karimzakzouk/app:v1.0.0
 ```
 
 2. **Run the container**
 
 ```bash
-docker run -d --name my-app -p 3000:3000 <your-dockerhub-username>/app:latest
+docker run -d --name my-app -p 3000:3000 karimzakzouk/app:latest
 ```
 
 * `-d` → run in detached mode (in background)
